@@ -5,7 +5,7 @@ import numpy as np
 
 # FINAL 
 warnings.simplefilter("ignore", AstropyWarning)
-Initial_Table_total = Table.read("Matched_GZH_UVISTA.fits")
+Initial_Table_total = Table.read("sample_data.fits") # sample data which shows only 20% of total number of galaxies
 
 # mask initial table so that the entire subset selection is already masked
 # volume cut 
